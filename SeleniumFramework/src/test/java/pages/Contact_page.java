@@ -25,8 +25,10 @@ public class Contact_page {
 	
 	public static WebElement textbox_city(WebDriver driver) {
 		
-		element = driver.findElement(By.id("city_76"));
-	
+		//element = driver.findElement(By.id("city_76"));
+		//element = driver.findElement(By.id("city_32"));
+		element = driver.findElement(By.id("city_3"));
+		
 	return element;
 	}
 	
@@ -58,6 +60,15 @@ public class Contact_page {
 	public static WebElement checkBoxWithNoID(WebDriver driver) {
 		
 		element = driver.findElement(By.className("form-check-input"));
+	
+	return element;
+	}
+	
+	////////////////////////////////////////////////  sketchy ///////////////////////////////
+	//type="button" class="btn"
+	public static WebElement submitbutton(WebDriver driver) {
+		
+		element = driver.findElement(By.className("btn"));
 	
 	return element;
 	}

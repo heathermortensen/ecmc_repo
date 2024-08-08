@@ -36,8 +36,9 @@ Detailed instructions can be found at the following link: [Selenium Framework fo
 | **Browser**                         | **Browser Driver**                              | **Driver Location**                                             |
 |Chrome V127.0.6533.90 (64-bit)       |   NA                                            | /SeleniumFramework/drivers/chromedriver/chromedriver-win64      |
 
+Note: Browsers shown in the table in white cells are fully configured. Run the tests in Firefox. Browsers displayed inside gray cells do not have their drivers fully setup. <br>
 Note: Chrome updated during project work to Version 127.0.6533.100 (8/8/2024 @ 9:43am)
-Note: Browsers shown in the table in white cells are fully configured. Run the tests in Firefox. Browsers displayed inside gray cells do not have their drivers fully setup.
+
 
 ## POM Model
 

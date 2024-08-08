@@ -25,7 +25,7 @@ public class test_2 {
 	
 		private static WebDriver driver = null;
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		
 		System.out.print("Project location:" );
 		System.out.print("---------------------" );

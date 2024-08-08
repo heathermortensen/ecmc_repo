@@ -37,25 +37,25 @@ An illustration of how we incorporate those tests is shown below in figure 4.
 ![some_pic_4](./images/some_pic_4.png)
 **Figure 4.** Some pic that incorporates the tests
 
-##Test 1 Details
+## Test 1 Details
 
 
-##Test 2 Details
+## Test 2 Details
 
 Figure 5 shows output from the Contact Us webpage after input is entered by the user.
 
 ![Test 2 Output](./images/test2_output.png)
-**Figure 5.** Test 2
+** Figure 5. ** Contact Us Webpage output after user input
 
 Figure 6 illustrates test output. 
 
 ![Test 2 Details](./images/Test_2.png)
-**Figure 6.** Test 2
+** Figure 6. ** Test 2 output
 
 Figure 7 shows where to find files related to the test inside the eclipse package. The 'Contact Us' webpage has a corresponding class at /SeleniumFramework/src/test/java/pages/Contact_page.java inside the eclipse project. Code related to test 2 exists at the following location: /SeleniumFramework/src/test/java/myTests/test_2.java.
 
 ![Test 2 package structure](./images/test2_package_structure.png)
-**Figure 7.** Test 2 files inside the java package structure
+** Figure 7. ** Files related to test 2 inside the java package structure
 
 ##Test 3 Details
 

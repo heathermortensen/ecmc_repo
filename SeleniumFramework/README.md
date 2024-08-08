@@ -1,14 +1,14 @@
 # ECMC Project
 
-TO DO
+**TO DO**
 
-[ ] I might have the wrong driver for Chrome
-[ ] Look at the details of XPath - Dynamic web elements in Selenium
-	I can see the id for the city field is changing on refresh. Could use Contains() method
-	There's some kinda tool called SelectorsHub that helps with this.
-[ ] How do I identify the button on the contact us page. Does that lack both an id and a name? Is that why I forgot to put it into my class diagram?
-[ ] Cite things
-[ ]
+[ ] I might have the wrong driver for Chrome <br>
+[ ] Look at the details of XPath - Dynamic web elements in Selenium <br>
+	I can see the id for the city field is changing on refresh. Could use Contains() method <br>
+	There's some kinda tool called SelectorsHub that helps with this. <br>
+[ ] How do I identify the button on the contact us page. Does that lack both an id and a name? Is that why I forgot to put it into my class diagram? <br>
+[ ] Cite things <br>
+[ ] <br>
 
 ## Required Installations & Configuration
 

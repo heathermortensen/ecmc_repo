@@ -113,7 +113,7 @@ public class test_2 {
 		
 		//Close the firefox driver
 		
-		//driver_for_firefox.close();
+		driver_for_firefox.close();
 		
 	}
 	

@@ -57,8 +57,9 @@ public class Contact_page {
 	public static WebElement textbox_city(WebDriver driver) {
 		
 		//This element's id seems to be changing, so lets find it using xpath. See video: https://www.youtube.com/watch?v=rF577DJH7E8
-		
 		//https://sqa.stackexchange.com/questions/18342/how-to-handle-dynamic-changing-ids-in-xpath
+		
+		// xpath is //*[@id="city_*"]
 		
 		//element = driver.findElement(By.id("city_76"));
 		//element = driver.findElement(By.id("city_32"));
@@ -72,31 +73,10 @@ public class Contact_page {
 		//suitable ID should be provided as per a proper locator strategy.
 		//https://sqa.stackexchange.com/questions/18342/how-to-handle-dynamic-changing-ids-in-xpath
 		
+		//It doesn't like this syntax because of the underscore.
+		element = driver.findElement(By.xpath("//*[contains(@id=,'city_']"));
 		
-		//element = driver.findElement(By.xpath("//*[contains(@id = 'city')])"));
-		
-		//List<WebElement> list = new ArrayList<WebElement>();
-		
-		//list = driver.findElements(By.xpath("//*[contains(@id = 'city')])"));
-		
-		//int sizeOfList = list.size();
-		
-		//for (int i = 0; i < sizeOfList; i++)
-		//{
-//			list.get(i);
-//			System.out.print("web element #" + list.get(i) + "   ");
-//			
-//			WebElement e = list.getFirst();
-//			System.out.print("web element type = " + e.getClass() + " ");
-//			
-//		}
-		
-		
-		
-	
-		
-		//if (element.equals()
-		
+				
 	return element;
 	}
 	
@@ -132,13 +112,12 @@ public class Contact_page {
 	return element;
 	}
 	
-	////////////////////////////////////////////////  sketchy ///////////////////////////////
-	//type="button" class="btn"???
+
 	public static WebElement submitbutton(WebDriver driver) {
 		
-		//This element has no id or name, so we need to locate it usign the xpath. See video: https://www.youtube.com/watch?v=rF577DJH7E8
-		
-		element = driver.findElement(RelativeLocator.with(By.tagName("button")));
+		//This element has no id or name, so we need to locate it using the xpath. See video: https://www.youtube.com/watch?v=rF577DJH7E8
+		// xpath is /html/body/div[2]/main/form/button
+		element = driver.findElement(By.xpath("/html/body/div[2]/main/form/button"));
 	
 	return element;
 	}

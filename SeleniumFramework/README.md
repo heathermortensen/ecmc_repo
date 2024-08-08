@@ -1,16 +1,32 @@
 # ECMC Project
 
+## How To Run Tests
+
+To run test 3, perform the following 2 steps:
+
+Step 1.) Open the file named test_3.java inside the eclipse package named myTests. 
+
+
+![How to run test 3](./images/runTest3.png)
+
+Step 2.) Click the play button inside eclipse.
+
+![How to run test 3](./images/playButton.png)
+
+Find and run the analogous test_1.java and test_2.java files inside the myTests package according to the steps above.
+
 **TO DO**
 
 8/8/2024
 
 [ ] I might have the wrong driver for Chrome <br>
 [ ] Look at the details of XPath - Dynamic web elements in Selenium <br>
-	I can see the id for the city field is changing on refresh. Could use Contains() method <br>
+	I can see the id for the city field is changing on refresh. Could use the contains() method, but it doesn't like the underscore syntax. <br>
 	There's some kinda tool called SelectorsHub that helps with this. <br>
-[ ] How do I identify the button on the contact us page. Does that lack both an id and a name? Is that why I forgot to put it into my class diagram? <br>
+[x] How do I identify the button on the contact us page. Does that lack both an id and a name? Is that why I forgot to put it into my class diagram? <br>
 [ ] Cite things <br>
-[ ] <br>
+[ ] Lok at that testdata-id and how to use it.
+
 
 ## Required Software Installations & Configuration
 
@@ -89,8 +105,14 @@ An illustration of how we incorporate those tests is shown below in figure 5.
 
 ## Test 1 Details
 
+Problem with the form's city field. It has a dynamic id that changes every refresh.
+I tried using contains(@id,'city_'), but it didn't like the underscore syntax. 
+I need to differentiate it from the city label above it.
+I tried to use the Xpath, but the id appears inside of it.
 
 ## Test 2 Details
+
+Test 2 is functional, but not complete.
 
 Figure 6 shows output from the Contact Us webpage after input is entered by the user.
 
@@ -107,9 +129,15 @@ Code related to test 2 exists at the following location: /SeleniumFramework/src/
 
 ![Test 2 package structure](./images/test2_package_structure.png)
 
+
+
 **Figure 8.** Files related to test 2 inside the java package structure
 
 ##Test 3 Details
+
+Test 3 is working, but not complete.
+
+![How to run test 3](./images/runTest3.png)
 
 ```
 git add .

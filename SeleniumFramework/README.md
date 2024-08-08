@@ -37,7 +37,7 @@ Detailed instructions can be found at the following link: [Selenium Framework fo
 |Chrome V127.0.6533.90 (64-bit)       |   NA                                            | /SeleniumFramework/drivers/chromedriver/chromedriver-win64      |
 
 **Note:** Browsers shown in the table in white cells are fully configured. Run the tests in Firefox. Browsers displayed inside gray cells do not have their drivers fully setup. <br>
-Note: Chrome updated during project work to Version 127.0.6533.100 (8/8/2024 @ 9:43am)
+**Note:** Chrome updated during project work to Version 127.0.6533.100 (8/8/2024 @ 9:43am)
 
 
 ## POM Model
@@ -73,20 +73,14 @@ We create 3 tests. Each test is written in a separate class file at the followin
 **Figure 4.** Location of the test files inside the eclipse project
 
 ### Tests: 
-### --------------------------------------------------------------------------------------------------------------------------
+### --------------------------------------------------------------------------------
 
 ### Test 1.) Submit a successful Contact Us request, and verify the message on the success page. <br>
-
-<br>
 ### Test 2a.) Fill out the Contact Us form's First and Last name fields, then click Submit. <br>
-
 ### Test 2b.) Verify the validation message for First name. <br>
-<br>
 ### Test 2c.) Verify the error message under the Terms and Conditions checkbox. <br>
-<br>
-
 ### Test 3.) On the Waiting page, please wait for the page to load, and then follow the instructions to verify the two alerts. <br>
-<br>
+
 
 An illustration of how we incorporate those tests is shown below in figure 5.
 

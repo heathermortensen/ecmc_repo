@@ -17,18 +17,18 @@ Detailed instructions can be found at the following link: [Selenium Framework fo
 
 | **Browser**                         | **Browser Driver**                              | **Driver Location**                                             |
 |-------------------------------------|-------------------------------------------------|-----------------------------------------------------------------|
-|**Browser: Firefox v129.0 (64-bit)** |   geckodriver-v0.35.0-win64                     |/SeleniumFramework/drivers/geckodriver/geckodriver-v0.35.0-win64 |
+|**Firefox v129.0 (64-bit)**          |   geckodriver-v0.35.0-win64                     |/SeleniumFramework/drivers/geckodriver/geckodriver-v0.35.0-win64 |
 
 
+| **Browser**                         | **Browser Driver**                              | **Driver Location**                                             |
+|-------------------------------------|-------------------------------------------------|-----------------------------------------------------------------|
+|**Chrome**                           |   NA                                            | NA                                                              |
 
- **Browser**                  | **Driver & installation location**                                                  | |-----------------------------|----------------------------------------------------------------------------------------------------------------------------| |**Browser: Firefox v129.0 (64-bit)** |**Browser Driver:** geckodriver-v0.35.0-win64                                        | |                             |                                      |**Driver location:** /SeleniumFramework/drivers/geckodriver/geckodriver-v0.35.0-win64|
-|                             |                                      |                                                                                     |
-|                             | **Browser: Chrome**                  |**Browser Driver:**                                                                  |
-|                             |                                      |**Driver location:**                                                                 |
-|			      |                                      |                                                                                     |
-|                             | **Browser: IE**                      |**Browser Driver:**                                                                  |
-|                             |                                      |**Driver location:**                                                                 |
-|                             |                                      |                                                                                     |
+
+| **Browser**                         | **Browser Driver**                              | **Driver Location**                                             |
+|-------------------------------------|-------------------------------------------------|-----------------------------------------------------------------|
+|**IE**                               |   NA                                            | NA                                                              |
+
 
 ## Model
 

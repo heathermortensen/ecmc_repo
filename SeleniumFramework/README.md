@@ -67,47 +67,51 @@ I construct the POM as illustrated in figure 3. The website has three pages, the
   
 [ ] TO DO: Mention the Dynamic web elements (@id = city_76, city_3, etc) here.
 
+We create 3 tests. Each test is written in a separate class file at the following location inside Eclipse: /SeleniumFramework/src/test/java/myTests
 
-We construct 3 tests listed below:
+![Location of the test files](./images/testFilesLocation.png)
+**Figure 4.** Location of the test files inside the eclipse project
+
+Tests 
 --------------------------------------------------------------------------------------------------------------------------
 
 Test 1.) Submit a successful Contact Us request, and verify the message on the success page.
 
 Test 2a.) Fill out the Contact Us form's First and Last name fields, then click Submit. 
 
-     2b.) Verify the validation message for First name. 
+Test 2b.) Verify the validation message for First name. 
 
-     2c.) Verify the error message under the Terms and Conditions checkbox.
+Test 2c.) Verify the error message under the Terms and Conditions checkbox.
 
 Test 3.) On the Waiting page, please wait for the page to load, and then follow the instructions to verify the two alerts.
 
-An illustration of how we incorporate those tests is shown below in figure 4.
+An illustration of how we incorporate those tests is shown below in figure 5.
 
-![some_pic_4](./images/some_pic_4.png)
-**Figure 4.** Some pic that incorporates the tests
+![some_pic_5](./images/some_pic_4.png)
+**Figure 5.** Some pic that incorporates the tests
 
 ## Test 1 Details
 
 
 ## Test 2 Details
 
-Figure 5 shows output from the Contact Us webpage after input is entered by the user.
+Figure 6 shows output from the Contact Us webpage after input is entered by the user.
 
 ![Test 2 Output](./images/test2_output.png)
-**Figure 5.** Contact Us Webpage output after user input
+**Figure 6.** Contact Us Webpage output after user input
 
-Figure 6 illustrates test output into console. 
+Figure 7 illustrates test output into console. 
 
 ![Test 2 Details](./images/Test_2.png)
-**Figure 6.** Test 2 output into console
+**Figure 7.** Test 2 output into console
 
-Figure 7 shows where to find relevant files related to the test inside the eclipse package. The 'Contact Us' webpage has a corresponding class at /SeleniumFramework/src/test/java/pages/Contact_page.java inside the eclipse project. 
+Figure 8 shows where to find relevant files related to the test inside the eclipse package. The 'Contact Us' webpage has a corresponding class at /SeleniumFramework/src/test/java/pages/Contact_page.java inside the eclipse project. 
 
 Code related to test 2 exists at the following location: /SeleniumFramework/src/test/java/myTests/test_2.java.
 
 ![Test 2 package structure](./images/test2_package_structure.png)
 
-**Figure 7.** Files related to test 2 inside the java package structure
+**Figure 8.** Files related to test 2 inside the java package structure
 
 ##Test 3 Details
 

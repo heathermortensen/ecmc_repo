@@ -82,7 +82,7 @@ I construct the POM as illustrated in figure 3. The website has three pages, the
   
 [ ] TO DO: Mention the Dynamic web elements (@id = city_76, city_3, etc) here.
 
-We create 3 tests. Each test is written in a separate class file at the following location inside Eclipse: /SeleniumFramework/src/test/java/myTests
+We create 3 tests. Each test is written in a separate file at the following location inside Eclipse: /SeleniumFramework/src/test/java/myTests
 
 ![Location of the test files](./images/testFilesLocation.png)
 

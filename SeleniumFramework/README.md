@@ -17,19 +17,21 @@ Detailed instructions can be found at the following link: [Selenium Framework fo
 
 
 
-| **Operating System**        | **Browser, Driver & installation location**                                       | 
-|-----------------------------|-----------------------------------------------------------------------------------|
-| Windows 11 v10.0.22631.3880 | Browser: Firefox v129.0 (64-bit)                                                  |
-|                             | Browser Driver: geckodriver-v0.35.0-win64                                         |
-|                             | Driver location: /SeleniumFramework/drivers/geckodriver/geckodriver-v0.35.0-win64 |      
-|                             |-----------------------------------------------------------------------------------|
-|                             | Chrome                                                                            |<br>
-|                             |                                                                                   |<br> 
-|                             |                                                                                   |<br>
-|                             |-----------------------------------------------------------------------------------|<br>
-|                             | IE                                                                                |<br>
-|                             |                                                                                   |<br> 
-|                             |                                                                                   |<br>
+| **Operating System**        | **Browser, Driver & installation location**                                           | 
+|-----------------------------|---------------------------------------------------------------------------------------|
+| Windows 11 v10.0.22631.3880 | **Browser:** Firefox v129.0 (64-bit)                                                  |
+|                             | **Browser Driver:** geckodriver-v0.35.0-win64                                         |
+|                             | **Driver location:** /SeleniumFramework/drivers/geckodriver/geckodriver-v0.35.0-win64 |      
+|                             |                                                                                       |
+|                             |                                                                                       |
+|                             | **Browser:** Chrome                                                                   |
+|                             | **Browser Driver:**                                                                   |
+|			      | **Driver location:**                                                                  |
+|                             |                                                                                       |
+|                             |                                                                                       |
+|                             | **Browser:** IE                                                                       |
+|                             | **Browser Driver:**                                                                   | 
+|                             | **Driver location:**                                                                  |
 
 
 

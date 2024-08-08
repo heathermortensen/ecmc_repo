@@ -9,28 +9,27 @@ Git came preinstalled - packaged inside this version of Eclipse. That was follow
 Detailed instructions can be found at the following link: [Selenium Framework for Beginners 1 | Getting Started | How to setup Selenium Java project in Eclipse]: https://www.youtube.com/watch?v=nCJoia7wosc
 
 
-
-
 | **Operating System**        | **Selenium**  | **Maven**  | **Java**  | **Eclipse**                         |
 |-----------------------------|---------------|------------|-----------|-------------------------------------|
 | Windows 11 v10.0.22631.3880 |   v4.23.0     | v3.9.8     | v22.0.2   |  v4.32.0, Build id: 20240606-1231   |
 
 | **Browser**                         | **Browser Driver**                              | **Driver Location**                                             |
 |-------------------------------------|-------------------------------------------------|-----------------------------------------------------------------|
-|**Firefox v129.0 (64-bit)**          |   geckodriver-v0.35.0-win64                     |/SeleniumFramework/drivers/geckodriver/geckodriver-v0.35.0-win64 |
+|Firefox v129.0 (64-bit)              |   geckodriver-v0.35.0-win64                     |/SeleniumFramework/drivers/geckodriver/geckodriver-v0.35.0-win64 |
 
 
 | **Browser**                         | **Browser Driver**                              | **Driver Location**                                             |
 |-------------------------------------|-------------------------------------------------|-----------------------------------------------------------------|
-|**Chrome**                           |   NA                                            | NA                                                              |
+|Chrome V127.0.6533.90 (64-bit)       |   NA                                            | /SeleniumFramework/drivers/chromedriver/chromedriver-win64      |
 
+Note: Chrome updated during project work to Version 127.0.6533.100 (8/8/2024 @ 9:43am)
 
 | **Browser**                         | **Browser Driver**                              | **Driver Location**                                             |
 |-------------------------------------|-------------------------------------------------|-----------------------------------------------------------------|
 |**IE**                               |   NA                                            | NA                                                              |
 
 
-## Model
+## POM Model
 
 I will use Page Object Model (POM) to construct 3 website tests using Selenium, Maven, and Java.
 

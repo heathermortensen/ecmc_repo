@@ -2,6 +2,8 @@
 
 **TO DO**
 
+8/8/2024
+
 [ ] I might have the wrong driver for Chrome <br>
 [ ] Look at the details of XPath - Dynamic web elements in Selenium <br>
 	I can see the id for the city field is changing on refresh. Could use Contains() method <br>
@@ -10,7 +12,7 @@
 [ ] Cite things <br>
 [ ] <br>
 
-## Required Installations & Configuration
+## Required Software Installations & Configuration
 
 
 First, I installed Java. Next, I installed the Eclipse IDE for Enterprise Java and Web Developers (includes Incubating components).
@@ -23,10 +25,15 @@ Detailed instructions can be found at the following link: [Selenium Framework fo
 |-----------------------------|---------------|------------|-----------|-------------------------------------|
 | Windows 11 v10.0.22631.3880 |   v4.23.0     | v3.9.8     | v22.0.2   |  v4.32.0, Build id: 20240606-1231   |
 
+### Browser Installations & Configuration
+
 | **Browser**                         | **Browser Driver**                              | **Driver Location**                                             |
 |-------------------------------------|-------------------------------------------------|-----------------------------------------------------------------|
 |Firefox v129.0 (64-bit)              |   geckodriver-v0.35.0-win64                     |/SeleniumFramework/drivers/geckodriver/geckodriver-v0.35.0-win64 |
-
+|                                     |                                                 |                                                                 |
+| **Browser**                         | **Browser Driver**                              | **Driver Location**                                             |
+|-------------------------------------|-------------------------------------------------|-----------------------------------------------------------------|
+|**IE**                               |   NA                                            | NA                                                              |
 
 | **Browser**                         | **Browser Driver**                              | **Driver Location**                                             |
 |-------------------------------------|-------------------------------------------------|-----------------------------------------------------------------|
@@ -34,9 +41,7 @@ Detailed instructions can be found at the following link: [Selenium Framework fo
 
 Note: Chrome updated during project work to Version 127.0.6533.100 (8/8/2024 @ 9:43am)
 
-| **Browser**                         | **Browser Driver**                              | **Driver Location**                                             |
-|-------------------------------------|-------------------------------------------------|-----------------------------------------------------------------|
-|**IE**                               |   NA                                            | NA                                                              |
+
 
 
 ## POM Model
@@ -54,11 +59,9 @@ Each webpage is its own class. Instance variables of each class are webpage comp
 ![myPOM](./images/myPOM.png)
 **Figure 2.** Defining the Page Object Model More Specifically to this Use Case
 
-There is some variation in the types assigned to our instance variables inside our website's source code. There are qualifiers that might be relevant for testing purposes, so I included them in figure 3. HTML tags help us identify specific webpage components. Those identified in figure 3 are id, required id, name, data-testid 
+HTML attributes might be relevant to testing, so I included them in the class diagram shown in figure 3. Those identified in figure 3 are id, required id, name, data-tested. What is a data-testid? https://medium.com/@automationTest/why-your-development-team-should-use-data-testid-attributes-a83f1ca27ebb
 
-What is a data-testid? https://medium.com/@automationTest/why-your-development-team-should-use-data-testid-attributes-a83f1ca27ebb
-
-I construct the POM as illustrated in figure 3. The website has three pages, therefore a class diagram has three classes. Instance variables for classes we intend to test are shown in black. Untested classes have white instance variables.
+I construct the POM as illustrated in figure 3. The website has three pages, therefore a class diagram has three classes. Instance variables for classes we intend to test are shown in black. Untested classes have instance variables Shown in white.
 
 [ ] TO DO: I forgot to add the button onto the drawing in the Contact Us class (figure 3)
 
@@ -70,20 +73,24 @@ I construct the POM as illustrated in figure 3. The website has three pages, the
 We create 3 tests. Each test is written in a separate class file at the following location inside Eclipse: /SeleniumFramework/src/test/java/myTests
 
 ![Location of the test files](./images/testFilesLocation.png)
+
 **Figure 4.** Location of the test files inside the eclipse project
 
-Tests 
---------------------------------------------------------------------------------------------------------------------------
+### Tests: 
+### --------------------------------------------------------------------------------------------------------------------------
 
-Test 1.) Submit a successful Contact Us request, and verify the message on the success page.
+### Test 1.) Submit a successful Contact Us request, and verify the message on the success page. <br>
 
-Test 2a.) Fill out the Contact Us form's First and Last name fields, then click Submit. 
+<br>
+### Test 2a.) Fill out the Contact Us form's First and Last name fields, then click Submit. <br>
 
-Test 2b.) Verify the validation message for First name. 
+### Test 2b.) Verify the validation message for First name. <br>
+<br>
+### Test 2c.) Verify the error message under the Terms and Conditions checkbox. <br>
+<br>
 
-Test 2c.) Verify the error message under the Terms and Conditions checkbox.
-
-Test 3.) On the Waiting page, please wait for the page to load, and then follow the instructions to verify the two alerts.
+### Test 3.) On the Waiting page, please wait for the page to load, and then follow the instructions to verify the two alerts. <br>
+<br>
 
 An illustration of how we incorporate those tests is shown below in figure 5.
 

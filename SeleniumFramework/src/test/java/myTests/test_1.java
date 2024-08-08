@@ -30,11 +30,11 @@ public class test_1 {
 		System.out.print("Project location:" );
 		System.out.println(" " + outputPathToProjectOnCurrentComputer());
 
-		
+		System.out.print("Webpage under test:" );
 		//String myURL = contactPageURL.toString();
 		String myURL = "https://interview-app-plum.vercel.app/contact/";
-		
 		System.out.println("" + myURL);
+		
 		
 		URL contactPageURL;
 		try {
@@ -59,6 +59,12 @@ public class test_1 {
 		WebDriver driver_for_firefox = new FirefoxDriver();
 		System.setProperty("webdriver.gecko.driver", "/SeleniumFramework/drivers/geckodriver/geckodriver-v0.35.0-win64/geckodriver.exe");
 		driver_for_firefox.get("https://interview-app-plum.vercel.app/contact/");
+		
+		//find all elements
+		System.out.println("");
+		driver_for_firefox.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+
+//		Contact_page.findAllElementsOnPage(driver_for_firefox);
 	
 		
 		//Contact_page myPage = new Contact_page();
@@ -70,6 +76,7 @@ public class test_1 {
 		//last name
 		driver_for_firefox.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 		Contact_page.textbox_lastName(driver_for_firefox).sendKeys("MMMM");
+		
 		
 		//CheckBox
 		driver_for_firefox.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
@@ -86,19 +93,19 @@ public class test_1 {
 		//Zip
 		driver_for_firefox.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 		Contact_page.textbox_zip(driver_for_firefox).sendKeys("55105");
+		
+		//City DOES NOT WORK because this textbox is a dynamic web element with an id that changes when the page refreshes.
+		//driver_for_firefox.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+		//Contact_page.textbox_city(driver_for_firefox).sendKeys("Anoka");
 
 		//Message Box
 		driver_for_firefox.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 		Contact_page.messagebox(driver_for_firefox).sendKeys("NA");
-		
-		
-		//City DOES NOT WORK
-//		driver_for_firefox.manage().timeouts().implicitlyWait(Duration.ofSeconds(0));
-//		Contact_page.textbox_city(driver_for_firefox).sendKeys("Anoka");
-		//button.requestFocusInWindow();
-		
+
 		//Button
-		//driver_for_firefox.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+		driver_for_firefox.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+		Contact_page.submitbutton(driver_for_firefox).click();
+		
 	
 		
 		//driver_for_firefox.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));

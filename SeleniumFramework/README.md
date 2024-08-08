@@ -17,10 +17,10 @@ Detailed instructions can be found at the following link: [Selenium Framework fo
 
 
 
-| **Operating System**        | **Browser**             | **Browser driver & installation location**                       | 
-|-----------------------------|-------------------------|------------------------------------------------------------------|
-| Windows 11 v10.0.22631.3880 | Firefox v129.0 (64-bit) | geckodriver-v0.35.0-win64                                        |
-|                             |                         |------------------------------------------------------------------|
+| **Operating System**        | **Browser**             | **Browser driver & installation location**                       |<br> 
+|-----------------------------|-------------------------|------------------------------------------------------------------|<br>
+| Windows 11 v10.0.22631.3880 | Firefox v129.0 (64-bit) | geckodriver-v0.35.0-win64                                        |<br>
+|                             |                         |------------------------------------------------------------------|<br>
 |                             |                         | /SeleniumFramework/drivers/geckodriver/geckodriver-v0.35.0-win64 |<br>
 |                             |-------------------------|------------------------------------------------------------------|<br>
 |                             | Chrome                  |                                                                  |<br>

@@ -32,7 +32,7 @@ Detailed instructions can be found at the following link: [Selenium Framework fo
 |Firefox v129.0 (64-bit)              |   geckodriver-v0.35.0-win64                     |/SeleniumFramework/drivers/geckodriver/geckodriver-v0.35.0-win64 |
 |                                     |                                                 |                                                                 |
 | **Browser**                         | **Browser Driver**                              | **Driver Location**                                             |
-|-------------------------------------|-------------------------------------------------|-----------------------------------------------------------------|
+|                                     |                                                 |                                                                 |
 |**IE**                               |   NA                                            | NA                                                              |
 
 | **Browser**                         | **Browser Driver**                              | **Driver Location**                                             |

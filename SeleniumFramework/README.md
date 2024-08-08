@@ -34,9 +34,9 @@ Test 1.) Submit a successful Contact Us request, and verify the message on the s
 
 Test 2a.) Fill out the Contact Us form's First and Last name fields, then click Submit. 
 
-	2b.) Verify the validation message for First name. 
+     2b.) Verify the validation message for First name. 
 
-	2c.) Verify the error message under the Terms and Conditions checkbox.
+     2c.) Verify the error message under the Terms and Conditions checkbox.
 
 Test 3.) On the Waiting page, please wait for the page to load, and then follow the instructions to verify the two alerts.
 
@@ -65,6 +65,7 @@ Figure 7 shows where to find relevant files related to the test inside the eclip
 Code related to test 2 exists at the following location: /SeleniumFramework/src/test/java/myTests/test_2.java.
 
 ![Test 2 package structure](./images/test2_package_structure.png)
+
 **Figure 7.** Files related to test 2 inside the java package structure
 
 ##Test 3 Details

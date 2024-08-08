@@ -31,9 +31,13 @@ We construct 3 tests listed below:
 --------------------------------------------------------------------------------------------------------------------------
 
 Test 1.) Submit a successful Contact Us request, and verify the message on the success page.
+
 Test 2a.) Fill out the Contact Us form's First and Last name fields, then click Submit. 
+
 	2b.) Verify the validation message for First name. 
+
 	2c.) Verify the error message under the Terms and Conditions checkbox.
+
 Test 3.) On the Waiting page, please wait for the page to load, and then follow the instructions to verify the two alerts.
 
 An illustration of how we incorporate those tests is shown below in figure 4.
@@ -49,17 +53,19 @@ An illustration of how we incorporate those tests is shown below in figure 4.
 Figure 5 shows output from the Contact Us webpage after input is entered by the user.
 
 ![Test 2 Output](./images/test2_output.png)
-** Figure 5. ** Contact Us Webpage output after user input
+**Figure 5.** Contact Us Webpage output after user input
 
-Figure 6 illustrates test output. 
+Figure 6 illustrates test output into console. 
 
 ![Test 2 Details](./images/Test_2.png)
-** Figure 6. ** Test 2 output
+**Figure 6.** Test 2 output into console
 
-Figure 7 shows where to find files related to the test inside the eclipse package. The 'Contact Us' webpage has a corresponding class at /SeleniumFramework/src/test/java/pages/Contact_page.java inside the eclipse project. Code related to test 2 exists at the following location: /SeleniumFramework/src/test/java/myTests/test_2.java.
+Figure 7 shows where to find relevant files related to the test inside the eclipse package. The 'Contact Us' webpage has a corresponding class at /SeleniumFramework/src/test/java/pages/Contact_page.java inside the eclipse project. 
+
+Code related to test 2 exists at the following location: /SeleniumFramework/src/test/java/myTests/test_2.java.
 
 ![Test 2 package structure](./images/test2_package_structure.png)
-** Figure 7. ** Files related to test 2 inside the java package structure
+**Figure 7.** Files related to test 2 inside the java package structure
 
 ##Test 3 Details
 

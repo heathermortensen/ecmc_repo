@@ -1,5 +1,28 @@
 # ECMC Project
 
+## Tech Stack
+
+
+I installed the Eclipse IDE for Enterprise Java and Web Developers (includes Incubating components) with Maven as the package manager.
+Note that if I would have installed Selenium v4.26.0 (I think), then the drivers would have come all packaged inside selenium. 
+
+
+
+| OS               | Browser   | Browser driver & installation location                           | Selenium | Maven  | Java    | Eclipse       |
+|------------------|-----------|------------------------------------------------------------------|----------|--------|---------|---------------|
+| Windows 11       | Firefox   | geckodriver-v0.35.0-win64                                        |  v4.23.0 | v3.9.8 | v22.0.2 |  v4.32.0      |
+| v10.0.22631.3880 |  v129.0   |------------------------------------------------------------------|          |        |         | Build id:     |
+|                  | (64-bit)  | /SeleniumFramework/drivers/geckodriver/geckodriver-v0.35.0-win64 |          |        |         | 20240606-1231 |                   
+|                  |-----------|------------------------------------------------------------------|
+|                  | Chrome    |                                                                  |
+|                  |           |------------------------------------------------------------------| 
+|                  |           |                                                                  |
+|------------------|-----------|------------------------------------------------------------------|
+
+
+
+## Model
+
 I will use Page Object Model (POM) to construct 3 website tests using Selenium, Maven, and Java.
 
 POM can be visualized, at a high level, as fitting into a Page Factory design pattern. (See Figure 1)

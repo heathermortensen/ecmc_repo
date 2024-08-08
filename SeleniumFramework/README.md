@@ -17,17 +17,13 @@ Detailed instructions can be found at the following link: [Selenium Framework fo
 
 
 
-| Left         | Centered         | Right                      |
-| :----------- | :--------------: | -------------------------: |
-| This is left | Text is centered | And this is right-aligned  |
-| More text    | Even more text   | And even more to the right |
-
-
 | **Operating System**        | **Browser**             | **Browser driver & installation location**                       | 
 |-----------------------------|-------------------------|------------------------------------------------------------------|
-| Windows 11 v10.0.22631.3880 | Firefox v129.0 (64-bit) | geckodriver-v0.35.0-win64                                        |  
+| Windows 11 v10.0.22631.3880 | Firefox v129.0 (64-bit) | geckodriver-v0.35.0-win64
+                                        |  
 |                             |                         |------------------------------------------------------------------|
-|                             |                         | /SeleniumFramework/drivers/geckodriver/geckodriver-v0.35.0-win64 |                  
+|                             |                         | /SeleniumFramework/drivers/geckodriver/geckodriver-v0.35.0-win64 |
+                  
 |                             |-------------------------|------------------------------------------------------------------|
 |                             | Chrome                  |                                                                  |
 |                             |                         |------------------------------------------------------------------| 

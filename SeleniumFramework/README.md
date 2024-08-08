@@ -1,23 +1,30 @@
 # ECMC Project
 
-## Tech Stack
+## Required Installations & Configuration
 
 
 I installed the Eclipse IDE for Enterprise Java and Web Developers (includes Incubating components) with Maven as the package manager.
-Note that if I would have installed Selenium v4.26.0 (I think), then the drivers would have come all packaged inside selenium. 
+Git came preinstalled, packaged inside this version of Eclipse. Note that if I would have installed Selenium v4.26.0 (I think), then 
+the drivers would have come all prepackaged inside selenium. 
+
+| Selenium | Maven  | Java    | Eclipse       |
+|----------|--------|---------|---------------|
+|  v4.23.0 | v3.9.8 | v22.0.2 |  v4.32.0      |
+|          |        |         | Build id:     |
+|          |        |         | 20240606-1231 | 
+|----------|--------|---------|---------------|
 
 
-
-| OS               | Browser   | Browser driver & installation location                           | Selenium | Maven  | Java    | Eclipse       |
-|------------------|-----------|------------------------------------------------------------------|----------|--------|---------|---------------|
-| Windows 11       | Firefox   | geckodriver-v0.35.0-win64                                        |  v4.23.0 | v3.9.8 | v22.0.2 |  v4.32.0      |
-| v10.0.22631.3880 |  v129.0   |------------------------------------------------------------------|          |        |         | Build id:     |
-|                  | (64-bit)  | /SeleniumFramework/drivers/geckodriver/geckodriver-v0.35.0-win64 |          |        |         | 20240606-1231 |                   
-|                  |-----------|------------------------------------------------------------------|
-|                  | Chrome    |                                                                  |
-|                  |           |------------------------------------------------------------------| 
-|                  |           |                                                                  |
-|------------------|-----------|------------------------------------------------------------------|
+| OS               | Browser   |  | Browser driver & installation location                           | 
+|------------------|-----------|  |------------------------------------------------------------------|
+| Windows 11       | Firefox   |  | geckodriver-v0.35.0-win64                                        |  
+| v10.0.22631.3880 |  v129.0   |  |------------------------------------------------------------------|
+|                  | (64-bit)  |  | /SeleniumFramework/drivers/geckodriver/geckodriver-v0.35.0-win64 |                  
+|                  |-----------|  |------------------------------------------------------------------|
+|                  | Chrome    |  |                                                                  |
+|                  |           |  |------------------------------------------------------------------| 
+|                  |           |  |                                                                  |
+|------------------|-----------|  |------------------------------------------------------------------|
 
 
 

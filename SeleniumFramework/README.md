@@ -71,17 +71,16 @@ We create 3 tests. Each test is written in a separate class file at the followin
 ![Location of the test files](./images/testFilesLocation.png)
 
 **Figure 4.** Location of the test files inside the eclipse project
-
-### Tests: 
-### --------------------------------------------------------------------------------
-
+<br>
+## Tests: 
+## -----------------------------------------------------------------------
 ### Test 1.) Submit a successful Contact Us request, and verify the message on the success page. <br>
 ### Test 2a.) Fill out the Contact Us form's First and Last name fields, then click Submit. <br>
 ### Test 2b.) Verify the validation message for First name. <br>
 ### Test 2c.) Verify the error message under the Terms and Conditions checkbox. <br>
 ### Test 3.) On the Waiting page, please wait for the page to load, and then follow the instructions to verify the two alerts. <br>
-
-
+<br>
+<br>
 An illustration of how we incorporate those tests is shown below in figure 5.
 
 ![some_pic_5](./images/some_pic_4.png)

@@ -11,10 +11,10 @@ Detailed instructions can be found at the following link: [Selenium Framework fo
 
 
 
-| **Selenium**  | **Maven**   | **Java**     | **Eclipse**                            |
-|--------------:|------------:|-------------:|---------------------------------------:|
-|  v4.23.0      | v3.9.8      | v22.0.2      |  v4.32.0, Build id: 20240606-1231      |
-|               |             |              |                                        |
+| **Selenium** | **Maven**  | **Java**  | **Eclipse**                         |
+|--------------|------------|-----------|-------------------------------------|
+|  v4.23.0     | v3.9.8     | v22.0.2   |  v4.32.0, Build id: 20240606-1231   |
+|-----------------------------------------------------------------------------|
 
 
 | **Operating System**        | **Browser**             | **Browser driver & installation location**                           | 

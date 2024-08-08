@@ -72,6 +72,7 @@ We create 3 tests. Each test is written in a separate class file at the followin
 
 **Figure 4.** Location of the test files inside the eclipse project
 <br>
+<br>
 ## Tests: 
 ## -----------------------------------------------------------------------
 ### Test 1.) Submit a successful Contact Us request, and verify the message on the success page. <br>
@@ -95,11 +96,10 @@ Figure 6 shows output from the Contact Us webpage after input is entered by the 
 
 ![Test 2 Output](./images/test2_output.png)
 **Figure 6.** Contact Us Webpage output after user input
-
-Figure 7 illustrates test output into console. 
+ 
 
 ![Test 2 Details](./images/Test_2.png)
-**Figure 7.** Test 2 output into console
+**Figure 7.** Test 2 test output into console
 
 Figure 8 shows where to find relevant files related to the test inside the eclipse package. The 'Contact Us' webpage has a corresponding class at /SeleniumFramework/src/test/java/pages/Contact_page.java inside the eclipse project. 
 

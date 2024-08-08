@@ -4,12 +4,12 @@
 
 To run test 3, perform the following 2 steps:
 
-Step 1.) Open the file named test_3.java inside the eclipse package named myTests. 
+**Step 1.)** Open the file named test_3.java inside the eclipse package named myTests. 
 
 
 ![How to run test 3](./images/runTest3.png)
 
-Step 2.) Click the play button inside eclipse.
+**Step 2.)** Click the play button inside eclipse to run the test.
 
 ![How to run test 3](./images/playButton.png)
 

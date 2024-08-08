@@ -19,9 +19,13 @@ What is a data-testid? https://medium.com/@automationTest/why-your-development-t
 
 I construct the POM as illustrated in figure 3. The website has three pages, therefore a class diagram has three classes. Instance variables for classes we intend to test are shown in black. Untested classes have white instance variables.
 
+[ ] TO DO: I forgot to add the button onto the drawing in the Contact Us class (figure 3)
+
 ![specific_POM_v3](./images/specific_POM_v3.png)
 **Figure 3.** Three Page Classes - Home class, Contact class, and Waiting class
   
+[ ] TO DO: Mention the Dynamic web elements (@id = city_76, city_3, etc) here.
+
 
 We construct 3 tests listed below:
 --------------------------------------------------------------------------------------------------------------------------

@@ -14,10 +14,16 @@ Detailed instructions can be found at the following link: [Selenium Framework fo
 | **Selenium** | **Maven**  | **Java**  | **Eclipse**                         |
 |--------------|------------|-----------|-------------------------------------|
 |  v4.23.0     | v3.9.8     | v22.0.2   |  v4.32.0, Build id: 20240606-1231   |
-|-----------------------------------------------------------------------------|
 
 
-| **Operating System**        | **Browser**             | **Browser driver & installation location**                           | 
+
+| Left         | Centered         | Right                      |
+| :----------- | :--------------: | -------------------------: |
+| This is left | Text is centered | And this is right-aligned  |
+| More text    | Even more text   | And even more to the right |
+
+
+| **Operating System**        | **Browser**             | **Browser driver & installation location**                       | 
 |-----------------------------|-------------------------|------------------------------------------------------------------|
 | Windows 11 v10.0.22631.3880 | Firefox v129.0 (64-bit) | geckodriver-v0.35.0-win64                                        |  
 |                             |                         |------------------------------------------------------------------|
@@ -30,7 +36,7 @@ Detailed instructions can be found at the following link: [Selenium Framework fo
 |                             | IE                      |                                                                  |
 |                             |                         |------------------------------------------------------------------| 
 |                             |                         |                                                                  |
-|-----------------------------|-------------------------|------------------------------------------------------------------|
+
 
 
 ## Model

@@ -3,29 +3,34 @@
 ## Required Installations & Configuration
 
 
-I installed the Eclipse IDE for Enterprise Java and Web Developers (includes Incubating components) with Maven as the package manager.
-Git came preinstalled, packaged inside this version of Eclipse. Note that if I would have installed Selenium v4.26.0 (I think), then 
-the drivers would have come all prepackaged inside selenium. 
+First, I installed Java. Next, I installed the Eclipse IDE for Enterprise Java and Web Developers (includes Incubating components).
+Git came preinstalled - packaged inside this version of Eclipse. That was followed by a Maven (package manager) installation. Note that Maven comes preinstalled inside newer versions of Eclipse. I created a Maven project inside the Eclipse workspace and added a selenium dependency inside the pom.xlm file. Note that if I would have installed Selenium v4.26.0 (I think), then the browser drivers would have come all prepackaged inside selenium. 
 
-| Selenium | Maven  | Java    | Eclipse       |
-|----------|--------|---------|---------------|
-|  v4.23.0 | v3.9.8 | v22.0.2 |  v4.32.0      |
-|          |        |         | Build id:     |
-|          |        |         | 20240606-1231 | 
-|----------|--------|---------|---------------|
+Detailed instructions can be found at the following link: [Selenium Framework for Beginners 1 | Getting Started | How to setup Selenium Java project in Eclipse]: https://www.youtube.com/watch?v=nCJoia7wosc
 
 
-| OS               | Browser   |  | Browser driver & installation location                           | 
-|------------------|-----------|  |------------------------------------------------------------------|
-| Windows 11       | Firefox   |  | geckodriver-v0.35.0-win64                                        |  
-| v10.0.22631.3880 |  v129.0   |  |------------------------------------------------------------------|
-|                  | (64-bit)  |  | /SeleniumFramework/drivers/geckodriver/geckodriver-v0.35.0-win64 |                  
-|                  |-----------|  |------------------------------------------------------------------|
-|                  | Chrome    |  |                                                                  |
-|                  |           |  |------------------------------------------------------------------| 
-|                  |           |  |                                                                  |
-|------------------|-----------|  |------------------------------------------------------------------|
 
+
+| **Selenium** | **Maven**  | **Java**    | **Eclipse**                           |
+|--------------|------------|-------------|---------------------------------------|
+|  v4.23.0     | v3.9.8     | v22.0.2     |  v4.32.0, Build id: 20240606-1231     |
+|--------------|------------|-------------|---------------------------------------|
+
+
+| **Operating System**        | **Browser**             | **Browser driver & installation location**                           | 
+|-----------------------------|-------------------------|------------------------------------------------------------------|
+| Windows 11 v10.0.22631.3880 | Firefox v129.0 (64-bit) | geckodriver-v0.35.0-win64                                        |  
+|                             |                         |------------------------------------------------------------------|
+|                             |                         | /SeleniumFramework/drivers/geckodriver/geckodriver-v0.35.0-win64 |                  
+|                             |-------------------------|------------------------------------------------------------------|
+|                             | Chrome                  |                                                                  |
+|                             |                         |------------------------------------------------------------------| 
+|                             |                         |                                                                  |
+|-----------------------------|-------------------------|------------------------------------------------------------------|
+|                             | IE                      |                                                                  |
+|                             |                         |------------------------------------------------------------------| 
+|                             |                         |                                                                  |
+|-----------------------------|-------------------------|------------------------------------------------------------------|
 
 
 ## Model
